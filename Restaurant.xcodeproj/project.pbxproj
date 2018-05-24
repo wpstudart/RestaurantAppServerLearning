@@ -19,6 +19,7 @@
 		57C009A720B601CE00D03E1B /* IntermediaryModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C009A620B601CE00D03E1B /* IntermediaryModels.swift */; };
 		57C009A920B602B500D03E1B /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C009A820B602B500D03E1B /* MenuController.swift */; };
 		57C009AB20B6E91B00D03E1B /* Restaurant-server in Resources */ = {isa = PBXBuildFile; fileRef = 57C009AA20B6E91A00D03E1B /* Restaurant-server */; };
+		57C009AD20B722D800D03E1B /* OrderConfirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C009AC20B722D800D03E1B /* OrderConfirmationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		57C009A620B601CE00D03E1B /* IntermediaryModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntermediaryModels.swift; sourceTree = "<group>"; };
 		57C009A820B602B500D03E1B /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
 		57C009AA20B6E91A00D03E1B /* Restaurant-server */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Restaurant-server"; sourceTree = "<group>"; };
+		57C009AC20B722D800D03E1B /* OrderConfirmationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderConfirmationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				57C009A620B601CE00D03E1B /* IntermediaryModels.swift */,
 				57C009A820B602B500D03E1B /* MenuController.swift */,
 				57C009A220B5FF4200D03E1B /* MenuItemDetailViewController.swift */,
+				57C009AC20B722D800D03E1B /* OrderConfirmationViewController.swift */,
 				57877F4520B5FBA4001CD20E /* CategoryTableViewController.swift */,
 				57877F4720B5FBDB001CD20E /* MenuTableViewController.swift */,
 				57877F4920B5FBF7001CD20E /* OrderTableViewController.swift */,
@@ -162,6 +165,7 @@
 				57C009A320B5FF4200D03E1B /* MenuItemDetailViewController.swift in Sources */,
 				57877F4A20B5FBF7001CD20E /* OrderTableViewController.swift in Sources */,
 				57877F3420B5F4DF001CD20E /* AppDelegate.swift in Sources */,
+				57C009AD20B722D800D03E1B /* OrderConfirmationViewController.swift in Sources */,
 				57877F4620B5FBA4001CD20E /* CategoryTableViewController.swift in Sources */,
 				57877F4820B5FBDB001CD20E /* MenuTableViewController.swift in Sources */,
 				57C009A720B601CE00D03E1B /* IntermediaryModels.swift in Sources */,
