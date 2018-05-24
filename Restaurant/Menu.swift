@@ -6,13 +6,13 @@
 //  Copyright © 2018 wpstudart. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 struct MenuItem: Codable {
     var id: Int
     var name: String
     var description: String
-    var price: String
+    var price: Double
     var category: String
     var imageURL: URL
     

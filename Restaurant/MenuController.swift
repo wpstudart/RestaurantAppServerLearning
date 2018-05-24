@@ -44,6 +44,24 @@ class MenuController {
         let menuURL = components.url!
         let task = URLSession.shared.dataTask(with: menuURL) { (data, response, error) in
             let jsonDecoder = JSONDecoder()
+            
+            // Proper Error Handling
+            
+//            if let data = data {
+//
+//                do {
+//                    let menuItems = try jsonDecoder.decode(MenuItems.self, from: data)
+//
+//                    completion(menuItems.items)
+//                } catch let error {
+//                    print("\(error.localizedDescription)")
+//                    completion(nil)
+//                }
+//
+//            } else {
+//                completion(nil)
+//            }
+            
             if let data = data,
                 let menuItems = try? jsonDecoder.decode(MenuItems.self, from: data) {
                 completion(menuItems.items)
